@@ -1,0 +1,604 @@
+<html lang="eng">
+    <head>
+        <meta chatset="UTF-8">
+        <meta name="viewport" content="width=device-width, inital-scale=1.0">
+        <title>tour and travel website</title>
+
+        <!-- swiperjs.com user swiper form cdn -->
+        <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+
+        <!-- font  -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+        <!-- custom css file link -->
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+        <body>
+
+<!-- header section starts -->
+
+            <header>
+
+                <div id="menu-bar" class="fas fa-bars"></div>
+
+                <a href="#" class="logo img">
+                    <img src="C:\Users\anany\OneDrive\Documents\COLLEGE\SECOND YEAR\Web Development\Project_TrekTopia\Images\Logo.jpg" alt="Logo">
+                    </a>
+                
+                <nav class="navbar">
+                    <a href="#home">home</a>
+                    <a id="bookurl" href="#book">book</a>
+                    <a href="#packages">packages</a>
+                    <a href="#services">services</a>
+                    <a href="#gallery">gallery</a>
+                    <a href="#review">review</a>
+                    <a href="#contact">contact</a>
+                </nav>
+                
+                <div class="icons">
+                    <i class="fas fa-search" id="search-btn"></i>
+                    <!-- fas - solid icons are usually filled with transparent outlines -->
+                    <i class="fas fa-user" id="login-btn"></i>
+                </div>
+                
+                <form action=""class="search-bar-container">
+                    <input type="search" id="search-bar" placeholder="Search here...">
+                    <label for="search-bar"></label>
+                </form>
+                
+            </header>
+
+<!-- header section ends -->
+             
+<!-- login form container    -->
+
+            <div class="login-form-container">
+
+                <i class="fas fa-times" id="form-close"></i>
+
+                <form id="form">
+                    <h3>login</h3>
+                    <input type="email" id ="email"  class="box" placeholder="Enter your Email">
+                    <input type="password" id="password" class="box" placeholder="Enter your Password">
+                    <button type="submit" value="login" class="btn">Login now</button>
+                    <input type="checkbox" id="remember">
+                    <label for="remember">Remember Me</label>
+                    <p>Forget Password? <a href="#">Click Here</a></p> 
+                    <p>Don't have an account? <a href="#">Regiseter Now</a></p>
+                </form>
+            </div>
+
+<!-- home section starts -->
+
+            <section class="home" id="home">
+
+                <div class="content">
+                    <h3>adventure is worthwhile</h3>
+                    <p>discover new place with us, adventure awaits</p>
+                    <a href="#" class="btn">discover more</a>
+                </div>
+                
+                <div class="controls">
+                    <span class="vid-btn active" data-src="video/vid-1.mp4"></span>
+                    <span class="vid-btn" data-src="video/vid-2.mp4"></span>
+                    <span class="vid-btn" data-src="video/vid-3.mp4"></span>
+                    <span class="vid-btn" data-src="video/vid-4.mp4"></span>
+                    <span class="vid-btn" data-src="video/vid-5.mp4"></span>
+
+                </div>
+
+                <div class="video-container">
+                    <video src="video/vid-1.mp4" id="video-slider" loop autoplay muted></video>
+                </div>
+
+            </section>
+
+<!-- home section ends-->
+
+
+<!-- book section starts -->
+
+            <section class="book" id="book">
+
+                <h1 class="heading">
+                    <span>b</span>
+                    <span>o</span>
+                    <span>o</span>
+                    <span>k</span>
+                    <span class="space"></span>
+                    <span>n</span>
+                    <span>o</span>
+                    <span>w</span>
+                </h1>
+
+                <div class="row">
+                    <div class="image">
+                        <img src="C:\Users\anany\OneDrive\Documents\COLLEGE\SECOND YEAR\Web Development\Project_TrekTopia\Images\HomePage_img_1.jpg" alt="">
+                    </div> 
+                    
+                    <form action="">
+                        <div class="inputBox">
+                            <h3>where to</h3>
+                            <input type="text" placeholder="Place">
+                        </div>
+                        <div class="inputBox">
+                            <h3>how many</h3>
+                            <input type="number" placeholder="Number of Guests">
+                        </div>
+                        <div class="inputBox">
+                            <h3>arrivals</h3>
+                            <input type="date">
+                        </div>
+                        <div class="inputBox">
+                            <h3>leaving</h3>
+                            <input type="date">
+                        </div>
+                        <input type="submit" class="btn" value="book now">
+                    </form>
+                </div>
+
+            </section>
+
+<!-- book section ends -->
+
+
+<!-- package section starts -->
+
+<section class="packages" id="packages">
+
+    <h1 class="heading">
+        <span>p</span>
+        <span>a</span>
+        <span>c</span>
+        <span>k</span>
+        <span>a</span>
+        <span>g</span>
+        <span>e</span>
+        <span>s</span>
+    </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="pictures/kathmandu-pashupatinath-1.webp" alt="">
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i> kathmandu  </h3>
+                <p>Discover the mystical charm of Kathmandu, where ancient traditions harmonize with breathtaking landscapes, inviting you to explore the cultural heartbeat of Nepal.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> $80.00 <span>$110.00</span></div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="pictures/sydney.jpg" alt="">
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i> sydney </h3>
+                <p>Embark on a journey in Sydney, where urban sophistication meets natural beauty, creating a dynamic and captivating experience in Australia's vibrant harbor city.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="price"> $80.00 <span>$100.00</span></div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="pictures/hawaii.jpg" alt="">
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i> hawaii </h3>
+                <p>Immerse yourself in the tropical paradise of Hawaii, where vibrant landscapes, rich culture, and endless adventure await.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> $80.00 <span>$90.00</span></div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="pictures/paris.jpg" alt="">
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i> paris </h3>
+                <p>Experience the timeless allure of Paris, where romance meets artistry in the enchanting capital of France.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="price"> $70.00 <span>$90.00</span></div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="pictures/Tokyo-japan.jpg" alt="">
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i> Tokyo </h3>
+                <p>Discover Tokyo's vibrant fusion of tradition and modernity in the heart of Japan's bustling metropolis.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> $80.00 <span>$120.00</span></div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="pictures/egypt.jpg" alt="">
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i> egypt </h3>
+                <p>Unveil the mysteries of Egypt, where ancient wonders and timeless landscapes beckon you to explore a land steeped in history and allure.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> $50.00 <span>$90.00</span></div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- package section starts -->
+
+
+<!-- service section starts -->
+
+            <service class="services" id="services">
+
+                <h1 class="heading">
+                    <span>s</span>
+                    <span>e</span>
+                    <span>r</span>
+                    <span>v</span>
+                    <span>i</span>
+                    <span>c</span>
+                    <span>e</span>
+                    <span>s</span>
+                </h1>
+
+                <div class="box-container">
+
+                    <div class="box">
+                        <i class="fas fa-hotel"></i>
+                        <h3>affordable hotels</h3>
+                    </div>
+                    <div class="box">
+                        <i class="fas fa-utensils"></i>
+                        <h3>food and drinks</h3>
+                    </div>
+                    <div class="box">
+                        <i class="fas fa-bullhorn"></i>
+                        <h3>safety guide</h3>
+                    </div>
+                    <div class="box">
+                        <i class="fas fa-globe-asia"></i>
+                        <h3>around the world</h3>
+                    </div>
+                    <div class="box">
+                        <i class="fas fa-plane"></i>
+                        <h3>fastest travel</h3>
+                    </div>
+                    <div class="box">
+                        <i class="fas fa-hiking"></i>
+                        <h3>adventures</h3>
+                    </div>
+
+                </div>
+                    
+                </service>
+                
+<!-- service section ends -->
+
+
+<!-- gallery section starts -->
+
+                <section class="gallery" id="gallery">
+
+
+                    <h1 class="heading">
+                        <span>g</span>
+                        <span>a</span>
+                        <span>l</span>
+                        <span>l</span>
+                        <span>e</span>
+                        <span>r</span>
+                        <span>y</span>
+                    </h1>
+                    
+                    <div class="box-container">
+
+                        <div class="box">
+                            <img src="pictures/img/img-1.jpg" alt="">
+                            <div class="content">
+                                <h3>amazing places</h3>
+                                <a href="#" class="btn">see more</a>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <img src="pictures/img/img-2.webp" alt="">
+                            <div class="content">
+                                <h3>amazing places</h3>
+                                <a href="#" class="btn">see more</a>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <img src="pictures/img/img-3.webp" alt="">
+                            <div class="content">
+                                <h3>amazing places</h3>
+                                <a href="#" class="btn">see more</a>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <img src="pictures/img/img-4.jpg" alt="">
+                            <div class="content">
+                                <h3>amazing places</h3>
+                                <p>Edit me please!</p>
+                                <a href="#" class="btn">see more</a>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <img src="pictures/img/img-5.jpg" alt="">
+                            <div class="content">
+                                <h3>amazing places</h3>
+                                <a href="#" class="btn">see more</a>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <img src="pictures/img/img-6.jpg" alt="">
+                            <div class="content">
+                                <h3>amazing places</h3>
+                                <a href="#" class="btn">see more</a>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <img src="pictures/img/img-7.webp" alt="">
+                            <div class="content">
+                                <h3>amazing places</h3>
+                                <a href="#" class="btn">see more</a>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <img src="pictures/img/img-8.jpg" alt="">
+                            <div class="content">
+                                <h3>amazing places</h3>
+                                <a href="#" class="btn">see more</a>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <img src="pictures/img/img-9.jpg" alt="">
+                            <div class="content">
+                                <h3>amazing places</h3>
+                                <a href="#" class="btn">see more</a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </section>
+
+<!-- gallery section ends -->
+
+
+
+<!-- review section starts -->
+
+                <section class="review" id="review">
+
+                    <h1 class="heading">
+                        <span>r</span>
+                        <span>e</span>
+                        <span>v</span>
+                        <span>i</span>
+                        <span>e</span>
+                        <span>w</span>
+                    </h1> 
+
+                    <div class="swiper review-slider">
+
+                        <div class="swiper-wrapper">
+
+                            <div class="swiper-slide">
+                                <div class="box">
+                                    <img src="pictures/pic/pic-1.jpg" alt="">
+                                    <h3>moonika muff</h3>
+                                    <p>I recently used TrekTopia to book my dream vacation, and the experience was flawless. 
+                                        The website's user-friendly interface made it easy to browse through a variety of options. 
+                                        The detailed descriptions, high-quality images, and transparent pricing helped me make an 
+                                        informed decision.</p>
+                                    <div class="stars">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>   
+                                </div>                       
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="box">
+                                    <img src="pictures/pic/pic-2.jpg" alt="">
+                                    <h3>steve smith</h3>
+                                    <p>I encountered an issue with my reservation, and I must commend the exceptional customer service at 
+                                        TrekTopia. The support team was quick to respond to my inquiry, and their professionalism in 
+                                        resolving the issue exceeded my expectations. They went above and beyond to ensure my travel plans 
+                                        were not disrupted.</p>
+                                    <div class="stars">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                    </div>   
+                                </div>                       
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="box">
+                                    <img src="pictures/pic/pic-3.jpg" alt="">
+                                    <h3>layla lol</h3>
+                                    <p>What sets Trektopia apart is their personalized recommendation feature. After inputting my preferences, 
+                                        the site generated tailored suggestions that perfectly matched my interests and budget. 
+                                        It saved me hours of research and led me to discover hidden gems I might have overlooked.</p>
+                                    <div class="stars">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                    </div>   
+                                </div>                       
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="box">
+                                    <img src="pictures/pic/pic-4.jpg" alt="">
+                                    <h3>john doe</h3>
+                                    <p>If you're a savvy traveler looking for the best deals, Trektopia is the go-to platform. 
+                                        The site consistently offers exclusive promotions and discounts on hotels, flights, and activities. 
+                                        I managed to snag a fantastic package for my recent trip, saving a considerable amount.</p>
+                                    <div class="stars">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                    </div>   
+                                </div>                       
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </section>
+
+
+<!-- review section ends -->
+
+
+<!-- contact section starts -->
+
+              <section class="contact" id="contact">
+
+                <h1 class="heading">
+                    <span>c</span>
+                    <span>o</span>
+                    <span>n</span>
+                    <span>t</span>
+                    <span>a</span>
+                    <span>c</span>
+                    <span>t</span>
+                </h1> 
+
+                <div class="row">
+
+                    <div class="image">
+                        <img src="C:\Users\anany\OneDrive\Documents\COLLEGE\SECOND YEAR\Web Development\Project_TrekTopia\Images\Contact_Us.jpg" alt="">
+                    </div>
+
+                    <form action="">
+                        <div class="inputBox">
+                            <input type="text" placeholder="Name">
+                            <input type="email" placeholder="Email">
+                        </div>
+                        <div class="inputBox">
+                            <input type="number" placeholder="Number">
+                            <input type="text" placeholder="Subject">
+                        </div>
+                        <textarea placeholder="Message" name="" id="" cols="30" rows="10"></textarea>
+                        <input type="submit" class="btn" value="send message">
+                    </form>
+                </div>
+
+              </section>  
+
+<!-- contact section ends -->
+
+
+<!-- brand section starts -->
+
+              <section class="brand-container">
+
+                <div class="brand-slider">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="pictures/logo/logo-1.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="pictures/logo/logo-2.png" alt=""></div>
+                        <div class="swiper-slide"><img src="pictures/logo/logo-4.png" alt=""></div>
+                    </div>
+                </div>
+
+              </section>
+
+<!-- brand section ends -->
+
+<!-- footer section starts  -->
+
+              <section class="footer">
+
+                <div class="box-container">
+                    <div class="box">
+                        <h3>about us</h3>
+                        <p>At TrekTopia, we believe in the magic of exploration. Each trip is an opportunity to script your own tale of discovery. 
+                            Join us in wandering boldly, as we guide you through immersive adventures that go beyond the map.</p>
+                    </div>
+                    <div class="box">
+                        <h3>branch locations</h3>
+                        <a href="#">nepal</a>
+                        <a href="#">USA</a>
+                        <a href="#">japan</a>
+                        <a href="#">france</a>
+                    </div>
+                    <div class="box">
+                        <h3>follow us</h3>
+                        <a href="#">facebook</a>
+                        <a href="#">instagram</a>
+                        <a href="#">twitter</a>
+                        <a href="#">linkedin</a>
+                    </div>
+                </div>
+
+                <h1 class="credit">created by <span>Group - 4</span> | all rights reserved</h1>
+
+              </section>
+
+<!-- footer section ends -->
+
+
+</body>
+
+
+
+
+
+
+        <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+
+        <!-- custom js file link -->
+        <script src = "script.js"></script>
+</html>
